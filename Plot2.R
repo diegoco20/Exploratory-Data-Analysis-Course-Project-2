@@ -8,7 +8,7 @@ SCC <- readRDS("Source_Classification_Code.rds")
 NEI_TBL=tbl_df(NEI)
 
 #Filtering the data
-NEI_FIL=filter(NEI_TBL, fips == "24510", year==1999 | year==2008)
+NEI_FIL=filter(NEI_TBL, fips == "24510")
 rm(NEI_TBL)
 
 #Summarizing data

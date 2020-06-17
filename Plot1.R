@@ -18,5 +18,5 @@ names(mean_year)=c("Year", "Emissions")
 
 #Creating Plot
 png(file = "plot1.png", width = 480, height = 480)
-with(mean_year, barplot(Emissions, names.arg = Year, xlab="Year", ylab="PM25-PRI Emissions", main="PM 25 Emissions by Year"))
+with(mean_year, barplot(Emissions, names.arg = Year, xlab="Year", ylab="Mean PM25-PRI Emissions", main="Mean PM 25 Emissions by Year"))
 dev.off()
